@@ -18,4 +18,4 @@ if(third % 2 == 0):
 else:
     Odd_count = Odd_count + 1
 
-print("There were ", Even_count, "numbers and " , Odd_count, "numbers" )
+print("There were ", Even_count, "even and " , Odd_count, "odd numbers" )
