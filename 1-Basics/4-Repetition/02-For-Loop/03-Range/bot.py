@@ -7,5 +7,6 @@ for count in range(2, N+1, 2):
     print("Beep's brightness level: " + "*" * count)
     print("Bop's brightness level: " + "*" * count)
     
+print()
 print("Adjustments complete!")
 
