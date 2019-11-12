@@ -69,10 +69,10 @@ class Gui(Tk):
   def add_canvas(self):
     # create   
     self.canvas = Canvas()
-    self.canvas.place(x=8, y=8)
+    self.canvas.pack()
     
     # style
-    self.canvas.configure(bg= "#eee", height=154, width=315)
+    self.canvas.configure( bg= "#eee", height=154, width=315)
   
   def add_email_entry(self):
     # create   
